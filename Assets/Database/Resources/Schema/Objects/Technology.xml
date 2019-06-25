@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data name="Technology" type="object" typeid="Technology" >
+    <member name="Type" type="enum" typeid="TechType" />
+    <member name="ItemId" type="int" />
+    <member name="Faction" type="object" typeid="Faction" />
+    <member name="Price" type="int" />
+    <member name="Hidden" type="bool" />
+    <member name="Special" type="bool" />
+    <member name="Dependencies" type="object_list" typeid="Technology" />
+</data>

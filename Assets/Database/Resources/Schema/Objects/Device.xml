@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data name="Device" type="object" typeid="Device" >
+    <member name="DeviceClass" type="enum" typeid="DeviceClass" />
+    <member name="EnergyConsumption" type="float" />
+    <member name="PassiveEnergyConsumption" type="float" />
+    <member name="Power" type="float" />
+    <member name="Range" type="float" />
+    <member name="Size" type="float" />
+    <member name="Cooldown" type="float" />
+    <member name="Offset" type="vector" />
+    <member name="ActivationType" type="enum" typeid="ActivationType" />
+    <member name="Color" type="color" />
+    <member name="Sound" type="audioclip" />
+    <member name="EffectPrefab" type="string" />
+    <member name="ObjectPrefab" type="string" />
+    <member name="ControlButtonIcon" type="string" />
+</data>

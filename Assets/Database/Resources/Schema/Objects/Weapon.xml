@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data name="Weapon" type="object" typeid="Weapon" >
+    <member name="WeaponClass" type="enum" typeid="WeaponClass" />
+    <member name="FireRate" type="float" />
+    <member name="Spread" type="float" />
+    <member name="Magazine" type="int" />
+    <member name="Range" type="float" />
+    <member name="ActivationType" type="enum" typeid="ActivationType" />
+    <member name="ShotSound" type="audioclip" />
+    <member name="ChargeSound" type="audioclip" />
+    <member name="ShotEffectPrefab" type="string" />
+    <member name="ControlButtonIcon" type="string" />
+</data>

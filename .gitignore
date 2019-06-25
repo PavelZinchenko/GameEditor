@@ -1,0 +1,7 @@
+/Temp/*
+/Builds/
+**/.vs/
+/Library/
+**/bin/Debug/
+**/bin/Release/
+**/obj/

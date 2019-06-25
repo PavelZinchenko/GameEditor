@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data name="AmmunitionObsolete" type="object" typeid="AmmunitionObsolete" >
+    <member name="AmmunitionClass" type="enum" typeid="AmmunitionClassObsolete" />
+    <member name="DamageType" type="enum" typeid="DamageType" />
+    <member name="Impulse" type="float" />
+    <member name="Recoil" type="float" />
+    <member name="Size" type="float" />
+    <member name="InitialPosition" type="vector" />
+    <member name="AreaOfEffect" type="float" />
+    <member name="Damage" type="float" />
+    <member name="Range" type="float" />
+    <member name="Velocity" type="float" />
+    <member name="LifeTime" type="float" />
+    <member name="HitPoints" type="int" />
+    <member name="IgnoresShipVelocity" type="bool" />
+    <member name="EnergyCost" type="float" />
+    <member name="CoupledAmmunitionId" type="object" typeid="AmmunitionObsolete" />
+    <member name="Color" type="color" />
+    <member name="FireSound" type="audioclip" />
+    <member name="HitEffectPrefab" type="string" />
+    <member name="BulletPrefab" type="string" />
+</data>

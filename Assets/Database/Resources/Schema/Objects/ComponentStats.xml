@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data name="ComponentStats" type="object" typeid="ComponentStats" >
+    <member name="Type" type="enum" typeid="ComponentStatsType" />
+    
+    <member name="ArmorPoints" type="float" />
+    <member name="ArmorRepairRate" type="float" />
+    <member name="ArmorRepairCooldownModifier" type="float" />
+
+    <member name="EnergyPoints" type="float" />
+    <member name="EnergyRechargeRate" type="float" />
+    <member name="EnergyRechargeCooldownModifier" type="float" />
+    
+    <member name="ShieldPoints" type="float" />
+    <member name="ShieldRechargeRate" type="float" />
+    <member name="ShieldRechargeCooldownModifier" type="float" />
+
+    <member name="Weight" type="float" />
+
+    <member name="RammingDamage" type="float" />
+    <member name="EnergyAbsorption" type="float" />
+
+    <member name="KineticResistance" type="float" />
+    <member name="EnergyResistance" type="float" />
+    <member name="ThermalResistance" type="float" />
+
+    <member name="EnginePower" type="float" />
+    <member name="TurnRate" type="float" />
+
+    <member name="Autopilot" type="bool" />
+
+    <member name="DroneRangeModifier" type="float" />
+    <member name="DroneDamageModifier" type="float" />
+    <member name="DroneDefenseModifier" type="float" />
+    <member name="DroneSpeedModifier" type="float" />
+    <member name="DronesBuiltPerSecond" type="float" />
+    <member name="DroneBuildTimeModifier" type="float" />
+
+    <member name="WeaponFireRateModifier" type="float" />
+    <member name="WeaponDamageModifier" type="float" />
+    <member name="WeaponRangeModifier" type="float" />
+    <member name="WeaponEnergyCostModifier" type="float" />
+
+    <member name="AlterWeaponPlatform" type="enum" typeid="PlatformType" />
+</data>

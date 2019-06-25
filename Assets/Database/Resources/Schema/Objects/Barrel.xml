@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data name="Barrel" type="struct" >
+    <member name="Type" type="string" />
+    <member name="Position" type="vector" />
+    <member name="Rotation" type="float" />
+    <member name="Offset" type="float" />
+    <member name="PlatformType" type="enum" typeid="PlatformType" />
+    <member name="WeaponClass" type="string" />
+    <member name="Image" type="image" />
+    <member name="Size" type="float" />
+</data>
