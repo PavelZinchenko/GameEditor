@@ -8,27 +8,27 @@
 
 using System;
 using System.ComponentModel;
-using Database.Types;
-using Database.Enums;
+using GameDatabase.Types;
+using GameDatabase.Serialization;
+using GameDatabase.Enums;
 
-namespace Database.Serializable {
-
-[Serializable]
-public class WeaponSerializable : SerializableItem {
-    public WeaponClass WeaponClass;
-    public float FireRate;
-    public float Spread;
-    public int Magazine;
-    public float Range;
-    public ActivationType ActivationType;
-    [DefaultValue("")]
-    public string ShotSound;
-    [DefaultValue("")]
-    public string ChargeSound;
-    [DefaultValue("")]
-    public string ShotEffectPrefab;
-    [DefaultValue("")]
-    public string ControlButtonIcon;
-}
-
+namespace GameDatabase.Serializable
+{
+    [Serializable]
+    public class WeaponSerializable : SerializableItem
+    {
+        public WeaponClass WeaponClass;
+        public float FireRate;
+        public float Spread;
+        public int Magazine;
+        public ActivationType ActivationType;
+        [DefaultValue("")]
+        public string ShotSound;
+        [DefaultValue("")]
+        public string ChargeSound;
+        [DefaultValue("")]
+        public string ShotEffectPrefab;
+        [DefaultValue("")]
+        public string ControlButtonIcon;
+    }
 }

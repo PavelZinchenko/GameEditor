@@ -8,14 +8,15 @@
 
 using System;
 using System.ComponentModel;
-using Database.Types;
-using Database.Enums;
+using GameDatabase.Types;
+using GameDatabase.Serialization;
+using GameDatabase.Enums;
 
-namespace Database.Serializable {
-
-[Serializable]
-public class ComponentModSerializable : SerializableItem {
-    public ComponentModType Type;
-}
-
+namespace GameDatabase.Serializable
+{
+    [Serializable]
+    public class ComponentModSerializable : SerializableItem
+    {
+        public ComponentModType Type;
+    }
 }

@@ -6,13 +6,13 @@
 //                                                                               
 //-------------------------------------------------------------------------------
 
-namespace Database.Enums {
-
-public enum PlatformType {
-    Common,
-    AutoTarget,
-    AutoTargetFrontal,
-    TargetingUnit,
-}
-
+namespace GameDatabase.Enums
+{
+    public enum PlatformType
+    {
+        Common,
+        AutoTarget,
+        AutoTargetFrontal,
+        TargetingUnit,
+    }
 }

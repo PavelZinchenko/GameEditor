@@ -6,12 +6,12 @@
 //                                                                               
 //-------------------------------------------------------------------------------
 
-namespace Database.Enums {
-
-public enum BulletImpactType {
-    HitFirstTarget,
-    HitAllTargets,
-    DamageOverTime,
-}
-
+namespace GameDatabase.Enums
+{
+    public enum BulletImpactType
+    {
+        HitFirstTarget,
+        HitAllTargets,
+        DamageOverTime,
+    }
 }

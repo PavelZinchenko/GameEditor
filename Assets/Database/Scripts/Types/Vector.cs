@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Database.Types
+namespace GameDatabase.Types
 {
     [Serializable]
     public struct Vector

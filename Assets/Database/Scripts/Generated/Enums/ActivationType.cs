@@ -6,12 +6,12 @@
 //                                                                               
 //-------------------------------------------------------------------------------
 
-namespace Database.Enums {
-
-public enum ActivationType {
-    None,
-    Manual,
-    Mixed,
-}
-
+namespace GameDatabase.Enums
+{
+    public enum ActivationType
+    {
+        None,
+        Manual,
+        Mixed,
+    }
 }

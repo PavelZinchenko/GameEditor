@@ -6,12 +6,12 @@
 //                                                                               
 //-------------------------------------------------------------------------------
 
-namespace Database.Enums {
-
-public enum BulletEffectType {
-    None,
-    PlaySfx,
-    SpawnBullet,
-}
-
+namespace GameDatabase.Enums
+{
+    public enum BulletEffectType
+    {
+        None,
+        PlaySfx,
+        SpawnBullet,
+    }
 }

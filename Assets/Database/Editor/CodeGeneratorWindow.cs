@@ -1,7 +1,8 @@
-﻿using UnityEditor;
+﻿using GameDatabase.CodeGeneration.EditorCode;
+using UnityEditor;
 using UnityEngine;
 
-namespace Database.CodeGeneration
+namespace GameDatabase.CodeGeneration
 {
     public class CodeGeneratorWindow : EditorWindow
     {
@@ -19,7 +20,16 @@ namespace Database.CodeGeneration
 
         private void GenerateCode()
         {
-            CodeGenerator.Generate("Schema", "Assets/Database/Scripts/Generated");
+            var schema = DatabaseSchema.Load("Schema");
+            var writer = new CodeWriter { RootFolder = "Assets/Database/Scripts/Generated" };
+
+            var enumGenerator = new EnumCodeGenerator(writer);
+            var databaseGenerator = new DatabaseCodeGenerator(schema, writer);
+            var objectCodeGenerator = new ObjectCodeGenerator(schema, writer);
+
+            var builder = new CodeBuilder(schema, writer, enumGenerator, databaseGenerator, objectCodeGenerator);
+
+            builder.Build();
         }
     }
 }

@@ -6,16 +6,16 @@
 //                                                                               
 //-------------------------------------------------------------------------------
 
-namespace Database.Enums {
-
-public enum BulletTriggerCondition {
-    Undefined,
-    Created,
-    Destroyed,
-    Hit,
-    Disarmed,
-    Expired,
-    Detonated,
-}
-
+namespace GameDatabase.Enums
+{
+    public enum BulletTriggerCondition
+    {
+        Undefined,
+        Created,
+        Destroyed,
+        Hit,
+        Disarmed,
+        Expired,
+        Detonated,
+    }
 }

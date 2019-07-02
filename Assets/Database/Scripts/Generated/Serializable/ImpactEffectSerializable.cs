@@ -8,17 +8,18 @@
 
 using System;
 using System.ComponentModel;
-using Database.Types;
-using Database.Enums;
+using GameDatabase.Types;
+using GameDatabase.Serialization;
+using GameDatabase.Enums;
 
-namespace Database.Serializable {
-
-[Serializable]
-public class ImpactEffectSerializable {
-    public ImpactEffectType Type;
-    public DamageType DamageType;
-    public float Power;
-    public float Factor;
-}
-
+namespace GameDatabase.Serializable
+{
+    [Serializable]
+    public class ImpactEffectSerializable
+    {
+        public ImpactEffectType Type;
+        public DamageType DamageType;
+        public float Power;
+        public float Factor;
+    }
 }

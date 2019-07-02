@@ -8,20 +8,21 @@
 
 using System;
 using System.ComponentModel;
-using Database.Types;
-using Database.Enums;
+using GameDatabase.Types;
+using GameDatabase.Serialization;
+using GameDatabase.Enums;
 
-namespace Database.Serializable {
-
-[Serializable]
-public class FactionSerializable : SerializableItem {
-    [DefaultValue("")]
-    public string Type;
-    [DefaultValue("")]
-    public string Color;
-    public int HomeStarDistance;
-    public int WanderingShipsDistance;
-    public bool Hidden;
-}
-
+namespace GameDatabase.Serializable
+{
+    [Serializable]
+    public class FactionSerializable : SerializableItem
+    {
+        [DefaultValue("")]
+        public string Type;
+        [DefaultValue("")]
+        public string Color;
+        public int HomeStarDistance;
+        public int WanderingShipsDistance;
+        public bool Hidden;
+    }
 }

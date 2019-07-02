@@ -6,12 +6,12 @@
 //                                                                               
 //-------------------------------------------------------------------------------
 
-namespace Database.Enums {
-
-public enum TechType {
-    Component,
-    Ship,
-    Satellite,
-}
-
+namespace GameDatabase.Enums
+{
+    public enum TechType
+    {
+        Component,
+        Ship,
+        Satellite,
+    }
 }

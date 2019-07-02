@@ -8,17 +8,18 @@
 
 using System;
 using System.ComponentModel;
-using Database.Types;
-using Database.Enums;
+using GameDatabase.Types;
+using GameDatabase.Serialization;
+using GameDatabase.Enums;
 
-namespace Database.Serializable {
-
-[Serializable]
-public class AmmunitionSerializable : SerializableItem {
-    public BulletBodySerializable Body;
-    public BulletTriggerSerializable[] Triggers;
-    public BulletImpactType ImpactType;
-    public ImpactEffectSerializable[] Effects;
-}
-
+namespace GameDatabase.Serializable
+{
+    [Serializable]
+    public class AmmunitionSerializable : SerializableItem
+    {
+        public BulletBodySerializable Body;
+        public BulletTriggerSerializable[] Triggers;
+        public BulletImpactType ImpactType;
+        public ImpactEffectSerializable[] Effects;
+    }
 }

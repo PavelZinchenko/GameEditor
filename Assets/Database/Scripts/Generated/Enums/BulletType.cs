@@ -6,13 +6,13 @@
 //                                                                               
 //-------------------------------------------------------------------------------
 
-namespace Database.Enums {
-
-public enum BulletType {
-    Projectile,
-    Homing,
-    Static,
-    Continuous,
-}
-
+namespace GameDatabase.Enums
+{
+    public enum BulletType
+    {
+        Projectile,
+        Homing,
+        Static,
+        Continuous,
+    }
 }

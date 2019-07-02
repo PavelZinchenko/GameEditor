@@ -8,26 +8,27 @@
 
 using System;
 using System.ComponentModel;
-using Database.Types;
-using Database.Enums;
+using GameDatabase.Types;
+using GameDatabase.Serialization;
+using GameDatabase.Enums;
 
-namespace Database.Serializable {
-
-[Serializable]
-public class BulletBodySerializable {
-    public BulletType Type;
-    public float Size;
-    public float Velocity;
-    public float Range;
-    public float Lifetime;
-    public float Weight;
-    public int HitPoints;
-    [DefaultValue("")]
-    public string Color;
-    public int BulletPrefab;
-    public float EnergyCost;
-    public bool CanBeDisarmed;
-    public bool FriendlyFire;
-}
-
+namespace GameDatabase.Serializable
+{
+    [Serializable]
+    public class BulletBodySerializable
+    {
+        public BulletType Type;
+        public float Size;
+        public float Velocity;
+        public float Range;
+        public float Lifetime;
+        public float Weight;
+        public int HitPoints;
+        [DefaultValue("")]
+        public string Color;
+        public int BulletPrefab;
+        public float EnergyCost;
+        public bool CanBeDisarmed;
+        public bool FriendlyFire;
+    }
 }

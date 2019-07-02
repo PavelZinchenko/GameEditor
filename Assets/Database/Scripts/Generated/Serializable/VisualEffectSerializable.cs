@@ -8,14 +8,15 @@
 
 using System;
 using System.ComponentModel;
-using Database.Types;
-using Database.Enums;
+using GameDatabase.Types;
+using GameDatabase.Serialization;
+using GameDatabase.Enums;
 
-namespace Database.Serializable {
-
-[Serializable]
-public class VisualEffectSerializable : SerializableItem {
-    public VisualEffectDataSerializable[] Elements;
-}
-
+namespace GameDatabase.Serializable
+{
+    [Serializable]
+    public class VisualEffectSerializable : SerializableItem
+    {
+        public VisualEffectElementSerializable[] Elements;
+    }
 }

@@ -8,25 +8,25 @@
 
 using System;
 using System.ComponentModel;
-using Database.Types;
-using Database.Enums;
+using GameDatabase.Types;
+using GameDatabase.Serialization;
+using GameDatabase.Enums;
 
-namespace Database.Serializable {
-
-[Serializable]
-public class BarrelSerializable {
-    [DefaultValue("")]
-    public string Type;
-    [DefaultValue("")]
-    public Vector Position;
-    public float Rotation;
-    public float Offset;
-    public PlatformType PlatformType;
-    [DefaultValue("")]
-    public string WeaponClass;
-    [DefaultValue("")]
-    public string Image;
-    public float Size;
-}
-
+namespace GameDatabase.Serializable
+{
+    [Serializable]
+    public class BarrelSerializable
+    {
+        [DefaultValue("")]
+        public string Type;
+        public Vector Position;
+        public float Rotation;
+        public float Offset;
+        public PlatformType PlatformType;
+        [DefaultValue("")]
+        public string WeaponClass;
+        [DefaultValue("")]
+        public string Image;
+        public float Size;
+    }
 }

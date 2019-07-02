@@ -6,16 +6,16 @@
 //                                                                               
 //-------------------------------------------------------------------------------
 
-namespace Database.Enums {
-
-public enum ComponentCategory {
-    Undefined,
-    Weapon,
-    Defense,
-    Energy,
-    Engine,
-    Drones,
-    Special,
-}
-
+namespace GameDatabase.Enums
+{
+    public enum ComponentCategory
+    {
+        Undefined,
+        Weapon,
+        Defense,
+        Energy,
+        Engine,
+        Drones,
+        Special,
+    }
 }

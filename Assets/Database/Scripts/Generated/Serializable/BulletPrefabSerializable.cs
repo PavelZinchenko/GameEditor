@@ -8,24 +8,25 @@
 
 using System;
 using System.ComponentModel;
-using Database.Types;
-using Database.Enums;
+using GameDatabase.Types;
+using GameDatabase.Serialization;
+using GameDatabase.Enums;
 
-namespace Database.Serializable {
-
-[Serializable]
-public class BulletPrefabSerializable : SerializableItem {
-    public BulletShape Shape;
-    [DefaultValue("")]
-    public string Image;
-    public float Size;
-    public float Margins;
-    [DefaultValue("")]
-    public string MainColor;
-    public ColorMode MainColorMode;
-    [DefaultValue("")]
-    public string SecondColor;
-    public ColorMode SecondColorMode;
-}
-
+namespace GameDatabase.Serializable
+{
+    [Serializable]
+    public class BulletPrefabSerializable : SerializableItem
+    {
+        public BulletShape Shape;
+        [DefaultValue("")]
+        public string Image;
+        public float Size;
+        public float Margins;
+        [DefaultValue("")]
+        public string MainColor;
+        public ColorMode MainColorMode;
+        [DefaultValue("")]
+        public string SecondColor;
+        public ColorMode SecondColorMode;
+    }
 }

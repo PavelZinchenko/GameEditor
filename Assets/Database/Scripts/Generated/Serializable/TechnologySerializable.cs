@@ -8,20 +8,23 @@
 
 using System;
 using System.ComponentModel;
-using Database.Types;
-using Database.Enums;
+using GameDatabase.Types;
+using GameDatabase.Serialization;
+using GameDatabase.Enums;
 
-namespace Database.Serializable {
-
-[Serializable]
-public class TechnologySerializable : SerializableItem {
-    public TechType Type;
-    public int ItemId;
-    public int Faction;
-    public int Price;
-    public bool Hidden;
-    public bool Special;
-    public int[] Dependencies;
-}
-
+namespace GameDatabase.Serializable
+{
+    [Serializable]
+    public class TechnologySerializable : SerializableItem
+    {
+        public TechType Type;
+        public int Component;
+        public int Satellite;
+        public int Ship;
+        public int Faction;
+        public int Price;
+        public bool Hidden;
+        public bool Special;
+        public int[] Dependencies;
+    }
 }

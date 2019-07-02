@@ -8,28 +8,29 @@
 
 using System;
 using System.ComponentModel;
-using Database.Types;
-using Database.Enums;
+using GameDatabase.Types;
+using GameDatabase.Serialization;
+using GameDatabase.Enums;
 
-namespace Database.Serializable {
-
-[Serializable]
-public class BulletTriggerSerializable {
-    public BulletTriggerCondition Condition;
-    public BulletEffectType EffectType;
-    public int VisualEffect;
-    [DefaultValue("")]
-    public string AudioClip;
-    public int Ammunition;
-    [DefaultValue("")]
-    public string Color;
-    public ColorMode ColorMode;
-    public int Quantity;
-    public float Size;
-    public float Lifetime;
-    public float Cooldown;
-    public float RandomFactor;
-    public float PowerMultiplier;
-}
-
+namespace GameDatabase.Serializable
+{
+    [Serializable]
+    public class BulletTriggerSerializable
+    {
+        public BulletTriggerCondition Condition;
+        public BulletEffectType EffectType;
+        public int VisualEffect;
+        [DefaultValue("")]
+        public string AudioClip;
+        public int Ammunition;
+        [DefaultValue("")]
+        public string Color;
+        public ColorMode ColorMode;
+        public int Quantity;
+        public float Size;
+        public float Lifetime;
+        public float Cooldown;
+        public float RandomFactor;
+        public float PowerMultiplier;
+    }
 }

@@ -6,16 +6,16 @@
 //                                                                               
 //-------------------------------------------------------------------------------
 
-namespace Database.Enums {
-
-public enum BulletShape {
-    Projectile,
-    Rocket,
-    LaserBeam,
-    LightningBolt,
-    EnergyBeam,
-    Spark,
-    Mine,
-}
-
+namespace GameDatabase.Enums
+{
+    public enum BulletShape
+    {
+        Projectile,
+        Rocket,
+        LaserBeam,
+        LightningBolt,
+        EnergyBeam,
+        Spark,
+        Mine,
+    }
 }

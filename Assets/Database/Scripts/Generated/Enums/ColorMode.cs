@@ -6,13 +6,13 @@
 //                                                                               
 //-------------------------------------------------------------------------------
 
-namespace Database.Enums {
-
-public enum ColorMode {
-    TakeFromOwner,
-    UseMyOwn,
-    Blend,
-    Multiply,
-}
-
+namespace GameDatabase.Enums
+{
+    public enum ColorMode
+    {
+        TakeFromOwner,
+        UseMyOwn,
+        Blend,
+        Multiply,
+    }
 }

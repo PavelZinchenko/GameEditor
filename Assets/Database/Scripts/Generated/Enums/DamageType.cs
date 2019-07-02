@@ -6,13 +6,13 @@
 //                                                                               
 //-------------------------------------------------------------------------------
 
-namespace Database.Enums {
-
-public enum DamageType {
-    Impact,
-    Energy,
-    Heat,
-    Direct,
-}
-
+namespace GameDatabase.Enums
+{
+    public enum DamageType
+    {
+        Impact,
+        Energy,
+        Heat,
+        Direct,
+    }
 }
